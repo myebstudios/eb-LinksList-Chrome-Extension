@@ -1,0 +1,126 @@
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-family: 'Roboto-regular';
+}
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-family: 'Roboto-bold';
+}
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+  font-family: 'Roboto-black';
+}
+
+html {
+  width: 380px;
+  margin: 0;
+  background-color: #fff;
+}
+
+body {
+  background-color: #18171D;
+  color: white;
+  margin: 0;
+  font-family: 'Roboto-regular';
+  font-size: 14px;
+}
+
+html, body, div.container {
+  min-height: 490px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container .header {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .header > .logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container .header > .info {
+  cursor: pointer;
+}
+
+.container .header > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .links-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+}
+
+.container .links-count .badge {
+  margin-right: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1px 7px;
+  height: 20px;
+  background-color: #2E2C36;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container ul.links-list {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  height: 190px;
+  overflow-y: hidden;
+}
+
+.container ul.links-list .link-item {
+  max-height: 50px;
+  background-color: #2E2C36;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container ul.links-list .link-item .link-title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container ul.links-list .link-item > * {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+/*# sourceMappingURL=style.css.map */

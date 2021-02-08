@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "EB LinksList",
+    "description": "Google chrome extension for saving links.",
+    "version": "0.1",
+    "icons": {
+        "16": "./img/icons/icon_16.png",
+        "48": "./img/icons/icon_48.png",
+        "128": "./img/icons/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "./img/icons/icon_128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
